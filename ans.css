@@ -1,0 +1,58 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #ffe5e5;
+    color: #333;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    padding: 50px;
+}
+
+h1 {
+    font-size: 36px;
+    color: #ff5e5e;
+}
+
+p {
+    font-size: 20px;
+    margin: 20px 0;
+}
+
+.audio-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 20px 0;
+}
+
+.vinyl-image {
+    width: 100px; /* ปรับขนาดตามต้องการ */
+    margin-right: 20px;
+}
+
+button {
+    background-color: #ff5e5e;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 18px;
+}
+
+button:hover {
+    background-color: #ff3e3e;
+}
+
+.hidden {
+    display: none;
+}
+
+#message {
+    margin-top: 20px;
+    font-size: 24px;
+    color: #ff5e5e;
+}
